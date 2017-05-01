@@ -1,5 +1,6 @@
 body {
 background-color:#eee;
+
 }
 
 #title {
@@ -14,8 +15,13 @@ font-weight:400;
 padding-right:16px;
 }
 
-a {
+a{
 text-decoration:none;
+color:#333;
+}
+
+.description a{
+text-decoration:underline;
 color:#333;
 }
 
@@ -24,8 +30,9 @@ text-decoration:underline;
 }
 
 #container{
-width:820px;
+max-width:820px;
 text-align:center;
+margin:auto;
 }
 
 #containerleft{
@@ -94,6 +101,16 @@ font-family:lato;
 font-size:10pt;
 }
 
+p{
+padding-left:35px;
+padding-right:35px;
+}
+
+a #title{
+text-decoration:none;
+}
+
+
 #mc_embed_signup{
 
 }
@@ -115,33 +132,34 @@ background:#fff;
 color:#333;
 border-radius:2px;
 width:400px;
-padding-top:20px;
-padding-bottom:20px;
+padding:0px;
 
 }
 
 .appicon{
-	
+float:right;
 }
 
 .apptitle{
-font-family:Raleway;
-font-size:18pt;
+padding-top:10px;
 }
 
 .apptagline{
 font-family:Lato;
 font-size:12pt;
-
+clear:both;
+position:relative;
+bottom:12px;
 }
 
 .applinks{
 font-family:Lato;
 font-size:12pt;
-
 }
 
-
+.applinks a{
+text-decoration:underline;
+}
 
 
 
